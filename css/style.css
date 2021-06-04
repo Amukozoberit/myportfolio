@@ -1,0 +1,80 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header {
+        min-height: 50vh;
+        width: 100%;
+        background-position: 10% 30%;
+        /* background-size: cover; */
+        position: relative;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/images/me.jpg);
+    }
+    
+    nav {
+        float: right;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    .nav-link ul {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration-line: none;
+        color: #fff;
+    }
+    
+    .nav-link li {
+        float: left;
+        /* display: inline; */
+        margin-right: 10px;
+    }
+    /* .image {
+        background-image: linear-gradient(rgba(37, 64, 172, 0.7), rgba(26, 30, 48, 0.7)), url(images/me.jpg);
+        top: 20;
+        left: 0;
+    } */
+    
+    .text-box {
+        width: 50%;
+        color: #fff;
+        justify-content: center;
+        /* top: 90%;
+        left: 90%; */
+        text-align: center;
+        padding-top: 60%;
+        padding-left: 10%;
+        padding-right: 50%;
+        padding-bottom: 50%
+    }
+    
+    .text-box h1 {
+        font-size: 62px;
+    }
+    
+    .text-box p {
+        margin: 10p x 0 40px;
+        font-size: 14px;
+    }
+    
+    .text-box-b {
+        color: rgb(131, 5, 5);
+        text-align: center;
+    }
+    
+    .text-box-b p {
+        font-size: 14px;
+        color: #fff;
+    }
+    
+    @media screen and (max-width:580px) {
+        .header {
+            background-size: cover;
+        }
+        .text-box h1 {
+            font-size: 30px;
+        }
+    }
