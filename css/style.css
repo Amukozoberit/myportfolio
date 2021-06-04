@@ -70,7 +70,65 @@
         color: #fff;
     }
     
-    @media screen and (max-width:580px) {
+    .intro {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .title {
+        text-align: center;
+    }
+    /* .card {
+        box-shadow: 04px 8px rgba(0, 0, 0, 0.7);
+        transition: 0.3s;
+        text-align: center;
+        background: #fadddd;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 20px;
+        margin: 20px;
+    } */
+    
+    .card-cont {
+        flex-basis: 31%;
+        background: #fff3f3;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+    }
+    
+    .card-cont:hover {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .projects {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .projects p {
+        display: flex;
+    }
+    
+    .projects h3 {
+        text-align: left;
+    }
+    
+    .card {
+        margin: 5%;
+        display: flex;
+    }
+    
+    .cont {
+        padding: 2px 16px;
+    }
+    
+    @media screen and (max-width:720px) {
         .header {
             background-size: cover;
         }
