@@ -4,7 +4,7 @@
 }
 
 .header {
-    min-height: 50vh;
+    min-height: 40vh;
     width: 100%;
     background-position: 10% 30%;
     /* background-size: cover; */
@@ -105,7 +105,7 @@ a {
     background: #fff3f3;
     border-radius: 10px;
     margin-bottom: 10px;
-    padding: 30px 30px;
+    padding: 20px 20px;
     box-sizing: border-box;
     margin-right: auto;
 }
@@ -133,8 +133,12 @@ a {
 }
 
 .card {
-    margin: 5%;
+    margin: 1%;
     display: flex;
+}
+
+.card li {
+    list-style-type: none;
 }
 
 .cont {
