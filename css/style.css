@@ -96,8 +96,9 @@
         background: #fff3f3;
         border-radius: 10px;
         margin-bottom: 5%;
-        padding: 20px 20px;
+        padding: 30px 30px;
         box-sizing: border-box;
+        margin-right: auto;
     }
     
     .card-cont:hover {
@@ -109,10 +110,6 @@
         margin: auto;
         text-align: center;
         padding-top: 100px;
-    }
-    
-    .projects p {
-        display: flex;
     }
     
     .projects h3 {
@@ -131,13 +128,18 @@
     .links {
         color: #fff;
         background: grey;
-        margin: 10 13px;
-        padding: 0 10;
+        padding: 0 0;
+        margin-bottom: 0%;
     }
     
-    .links a {
-        justify-content: space-between;
+    .links ul li a {
+        padding-bottom: 0px;
         color: brown;
+    }
+    
+    .links li {
+        float: left;
+        padding: 10px;
     }
     
     @media screen and (max-width:720px) {
