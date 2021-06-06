@@ -136,8 +136,8 @@ a {
 }
 
 .projects {
-    /* width: 80%; */
-    display: inline-block;
+    width: 80%;
+    /* display: inline-block; */
     margin: auto;
     text-align: center;
     padding-top: 50px;
