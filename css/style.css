@@ -33,6 +33,10 @@ a {
     margin-right: 10px;
 }
 
+.nav-link li :hover {
+    background: rgb(4, 4, 22);
+}
+
 
 /* .image {
         background-image: linear-gradient(rgba(37, 64, 172, 0.7), rgba(26, 30, 48, 0.7)), url(images/me.jpg);
