@@ -196,4 +196,7 @@ a {
         margin: 5%;
         display: block;
     }
+    .text-box-b p {
+        width: 30%;
+    }
 }
