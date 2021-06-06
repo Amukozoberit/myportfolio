@@ -8,7 +8,7 @@
     width: 100%;
     background-position: 10% 30%;
     /* background-size: cover; */
-    position: relative;
+    padding-bottom: 3px;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/images/me.jpg);
 }
 
@@ -35,6 +35,7 @@ a {
 
 .nav-link li :hover {
     background: rgb(4, 4, 22);
+    transition: 1s;
 }
 
 
@@ -73,10 +74,10 @@ a {
 
 .text-box-b p {
     font-size: 14px;
-    color: #fff;
+    color: black;
     border-radius: 2px;
     border: 2px solid white;
-    background: rgb(65, 9, 9);
+    background: #fff3f3;
     text-align: center;
     width: 10%;
     padding: 10px;
@@ -86,6 +87,7 @@ a {
 
 .text-box-b p:hover {
     background: rgb(6, 6, 29);
+    color: #fff;
 }
 
 .intro {
@@ -129,13 +131,16 @@ a {
 
 .card-cont:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    background: rgb(6, 6, 29);
+    color: #fff;
 }
 
 .projects {
-    width: 80%;
+    /* width: 80%; */
+    display: inline-block;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .projects h3 {
